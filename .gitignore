@@ -1,0 +1,85 @@
+# Dependencies
+/vendor/
+/node_modules/
+composer.lock
+package-lock.json
+yarn.lock
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+error_log
+access_log
+
+# Cache and temporary files
+cache/
+tmp/
+temp/
+*.tmp
+*.cache
+
+# Database files (if using SQLite)
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Configuration files with sensitive data
+config.php
+database.php
+db_config.php
+
+# Session files
+sessions/
+*.sess
+
+# Upload directories (if any)
+uploads/
+files/
+
+# Compiled files
+*.min.js
+*.min.css
+*.map
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# XAMPP specific
+xampp/
+htdocs/backup/
+
+# PHP specific
+*.php~
+*.php.bak
+*.php.old
+
+# Security
+.htaccess.backup
+wp-config.php
